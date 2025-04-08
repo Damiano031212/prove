@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+}
+.peso-wrapper {
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 13px;
+  height: 5.69vh;
+  width: 13.39vh;
+  overflow-x: hidden; /* Rimuove le barre di scorrimento */
+  display: flex;
+  justify-content: center;
+  scroll-snap-type: x mandatory; /* Aggiunge lo snap del carosello */
+  scroll-padding: 50%;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: auto; /* Disabilita lo scorrimento fluido */
+  
+}
+
+.peso-scroll {
+  display: flex;
+  gap: 50px;
+  margin: auto;
+}
+
+.peso-item {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.247);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  scroll-snap-align: center; /* Lo snap alla posizione centrale */
+}
+
+.peso-item.selected {
+  color: rgb(0, 0, 0);
+  scale: 1.2;
+}
