@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+  font-family: sans-serif;
+}
+
+.carousel-container {
+  width: 13.39vh;
+  height: 5.69vh;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  align-items: center;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background: white;
+  scroll-behavior: smooth;
+
+  /* Nascondi le scrollbar */
+  scrollbar-width: none;            /* Firefox */
+  -ms-overflow-style: none;         /* Internet Explorer e Edge Legacy */
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none;                    /* Chrome, Safari, Opera */
+}
+
+.weight {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+  width: 5vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vh;
+  color: #555;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.selected {
+  color: #007bff;
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.selected-value {
+  margin-top: 20px;
+  font-size: 2vh;
+}
