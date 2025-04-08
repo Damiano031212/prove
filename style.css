@@ -20,7 +20,7 @@ h2 {
   scroll-snap-type: x mandatory; /* Aggiunge lo snap del carosello */
   scroll-padding: 50%;
   -webkit-overflow-scrolling: touch;
-  scroll-behavior: auto; /* Disabilita lo scorrimento fluido */
+ 
   
 }
 
