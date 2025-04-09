@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+  
+.carousel-container {
+    height: 5.68vh;
+    width: 13.38vh;
+    overflow-x: scroll;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border: 2px solid #ccc;
+    border-radius: 13px;
+    position: relative;
+}
+
+/* Nasconde la scrollbar su tutti i browser moderni */
+.carousel-container {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    margin: 0 1vh;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    scroll-snap-align: center;
+    font-size: 2vh;
+    transition: transform 0.2s;
+    color: #d3d3d3; /* Grigio chiaro per tutti i numeri */
+}
+
+/* Cambia il colore del numero quando è selezionato */
+.carousel-item.selected {
+    background: none; /* Rimuovi lo sfondo blu */
+    color: black; /* Cambia il colore in nero quando selezionato */
+    transform: scale(1.2);
+}
+
+
