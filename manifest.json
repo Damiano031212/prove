@@ -2,7 +2,7 @@
     "name": "Mia PWA",
     "short_name": "PWA",
     "description": "Una semplice Progressive Web App!",
-    "start_url": "https://damiano031212.github.io/fitstonecorretto/",
+    "start_url": "",
     "display": "standalone",
     "background_color": "#061414",
     "theme_color": "#061414",
