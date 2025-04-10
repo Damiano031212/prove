@@ -1,7 +1,7 @@
 {
-    "name": "Mia PWA",
-    "short_name": "PWA",
-    "description": "Una semplice Progressive Web App!",
+    "name": "Fitstone",
+    "short_name": "FtS",
+    "description": "Una semplice app di schede fitness!",
     "start_url": "https://damiano031212.github.io/prove/",
     "display": "standalone",
     "background_color": "#061414",
