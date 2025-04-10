@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget 
+    id="com.example.myapp" 
+    version="1.0.0" 
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>fitstone</name>
+    <description>Una descrizione della tua app</description>
+    <author email="support@example.com" href="http://example.com">Dazmk</author>
+    
+    <content src="index.html" />
+    
+    <access origin="*" />
+    
+    <preference name="Orientation" value="default" />
+    <preference name="Fullscreen" value="true" />
+    
+    <platform name="ios">
+        <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+        <icon src="res/icon/ios/icon.png" />
+        <splash src="res/splash/ios/splash.png" />
+    </platform>
+</widget>
