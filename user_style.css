@@ -10,6 +10,18 @@ body::-webkit-scrollbar {
   height: 170vh;
   -ms-overflow-style: none;  /* IE e Edge */
 }
+
+.header {
+  padding-top: env(safe-area-inset-top);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+  background-color: #061414;
+}
+
+.footer {
+  padding-bottom: env(safe-area-inset-bottom);
+  background-color: #061414;
+}
 .parent {
   display: flex;
   flex-direction: column;
