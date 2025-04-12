@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" href="user_style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body class="userflow_training_1">
+  
+  <header>
+    <button class="x" onclick="location.href='index.html'"><h1>x</h1></button>
+  </header>
+  <div class="card_amount">
+    <button class="undo" onclick="location.href='userflow_training_8.html'">
+      <div class="freccia_sin"></div>
+    </button>
+    <div class="count_card"><h1>9 / 10</h1></div>
+    <button class="next" onclick="location.href='userflow_training_10.html'">
+      <div class="freccia_dext"></div>
+    </button>
+  </div>
+  <!-- Div padre. L'attributo id serve per identificare in modo univoco il componente -->
+  <div class="parent" id="parent10">
+    <div class="tittle_card_exercise">
+      <h1 class="tittle_card">shoulder press 3 x 15</h1>
+    </div>
+    <div class="serie"><h3>Prima serie</h3></div>
+    <!-- Container 0: abilitato di default -->
+    <div class="container" data-index="28">
+      <!-- Carosello -->
+      <div class="carousel" data-type="weight"></div>
+      <!-- Menù a tendina per le rep -->
+      <select class="reps" data-type="reps">
+        <!-- le opzioni verranno generate via JS -->
+      </select>
+      <!-- Checkbox per sbloccare il container successivo -->
+      <input type="checkbox" class="unlock" data-type="unlock">
+    </div>
+    <div class="serie"><h3>Seconda serie</h3></div>
+    <!-- Container 1: disabilitato fino a quando il container 0 non è completato -->
+    <div class="container" data-index="29">
+      <div class="carousel" data-type="weight"></div>
+      <select class="reps" data-type="reps">
+      </select>
+      <input type="checkbox" class="unlock" data-type="unlock">
+    </div>
+    <div class="serie"><h3>Terza serie</h3></div>
+    <!-- Puoi aggiungere altri container ripetendo la struttura -->
+    <div class="container" data-index="30">
+      <div class="carousel" data-type="weight"></div>
+      <select class="reps" data-type="reps">
+      </select>
+      <input type="checkbox" class="unlock" data-type="unlock">
+    </div>
+   
+  </div>
+
+    <!-- Div padre. L'attributo id serve per identificare in modo univoco il componente -->
+
+
+  <div class="comment-container" id="comment9"></div>
+  <script src="script.js"></script>
+</body>
+</html>
