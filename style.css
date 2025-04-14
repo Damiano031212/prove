@@ -74,8 +74,6 @@ body::-webkit-scrollbar {
   overflow-x: scroll;
   scroll-snap-type: x mandatory; /* Scorrimento a scatti obbligatorio */
   scroll-behavior: smooth; /* Scorrimento fluido */
- 
-  touch-action: pan-x; /* Consente il trascinamento orizzontale */
   -webkit-overflow-scrolling: touch; /* Scorrimento fluido su dispositivi iOS */
 }
 
