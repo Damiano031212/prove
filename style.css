@@ -10,7 +10,6 @@ body {
   background-color: #061414;
   margin: 0;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
-  height: 170vh;
   overflow-y: scroll;
   -ms-overflow-style: none; /* IE e Edge */
 }
