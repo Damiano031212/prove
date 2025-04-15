@@ -1,6 +1,6 @@
 {
     "name": "Fitstone",
-    "short_name": "FtS",
+    "short_name": "Fitstones",
     "description": "Una semplice app di schede fitness!",
     "start_url": "https://damiano031212.github.io/prove/",
     "display": "standalone",
