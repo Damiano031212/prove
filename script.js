@@ -235,3 +235,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+function setVHUnit() {
+  const vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+// All'avvio
+setVHUnit();
+
+// Aggiorna su resize/orientamento
+window.addEventListener('resize', setVHUnit);
