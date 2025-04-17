@@ -4,8 +4,8 @@
     "description": "Una semplice app di schede fitness!",
     "start_url": "https://damiano031212.github.io/prove/",
     "display": "standalone",
-    "background_color": "#061414",
-    "theme_color": "#061414",
+    "background_color": "#060914",
+    "theme_color": "#060914",
     "icons": [
       {
         "src": "fitstoneicon.png",
