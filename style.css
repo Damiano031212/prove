@@ -11,7 +11,10 @@ body {
   margin: 0;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
   -ms-overflow-style: none; /* IE e Edge */
-  height: 100dvh; /* Altezza specifica per iPhone 14 Pro */
+  height: calc(var(--vh, 1vh) * 100);
+  
+  position: fixed; /* blocca anche i piccoli scroll */
+ 
   overflow-y:hidden;
 }
 
